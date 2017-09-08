@@ -1,0 +1,10 @@
+create index pluto_16v2_BK_I1 on pluto_16v2_BK (BBL);
+create index pluto_16v2_BK_I2 on pluto_16v2_BK (Borough, Block, Lot);
+create index pluto_16v2_BX_I1 on pluto_16v2_BX (BBL);
+create index pluto_16v2_BX_I2 on pluto_16v2_BX (Borough, Block, Lot);
+create index pluto_16v2_MN_I1 on pluto_16v2_MN (BBL);
+create index pluto_16v2_MN_I2 on pluto_16v2_MN (Borough, Block, Lot);
+create index pluto_16v2_SI_I1 on pluto_16v2_SI (BBL);
+create index pluto_16v2_SI_I2 on pluto_16v2_SI (Borough, Block, Lot);
+create index pluto_16v2_QN_I1 on pluto_16v2_QN (BBL);
+create index pluto_16v2_QN_I2 on pluto_16v2_QN (Borough, Block, Lot);
