@@ -1,5 +1,6 @@
 # nyc_pluto_mysql
-!! FORKED FROM: https://github.com/rcunha/nyc_pluto_mysql
+ * FORKED FROM: https://github.com/rcunha/nyc_pluto_mysql
+ * UPDATED FROM NYC PLUTO 16v1 TO 16v2
 
 Load NYC PLUTO dataset into MySQL database
 
