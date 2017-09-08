@@ -288,7 +288,7 @@ APPDate	= STR_TO_DATE(nullif(@vAPPDate,''),'%m/%d/%Y'),
 PLUTOMapID	= nullif(@vPLUTOMapID,''),
 Version	= nullif(@vVersion,'');
 
-load data local infile '../MN.csv' into table pluto_BX fields terminated by ',' optionally enclosed by '"' escaped by '\\' lines terminated by '\n' starting by '' ignore 1 rows
+load data local infile '../MN.csv' into table pluto_MN fields terminated by ',' optionally enclosed by '"' escaped by '\\' lines terminated by '\n' starting by '' ignore 1 rows
 (@vBorough, @vBlock, @vLot, @vCD, @vCT2010, @vCB2010, @vSchoolDist, @vCouncil, @vZipCode, @vFireComp, @vPolicePrct, @vHealthArea, @vSanitBoro, @vSanitDistrict, @vSanitSub, @vAddress, @vZoneDist1, @vZoneDist2, @vZoneDist3, @vZoneDist4, @vOverlay1, @vOverlay2, @vSPDist1, @vSPDist2, @vSPDist3, @vLtdHeight, @vSplitZone, @vBldgClass, @vLandUse, @vEasements, @vOwnerType, @vOwnerName, @vLotArea, @vBldgArea, @vComArea, @vResArea, @vOfficeArea, @vRetailArea, @vGarageArea, @vStrgeArea, @vFactryArea, @vOtherArea, @vAreaSource, @vNumBldgs, @vNumFloors, @vUnitsRes, @vUnitsTotal, @vLotFront, @vLotDepth, @vBldgFront, @vBldgDepth, @vExt, @vProxCode, @vIrrLotCode, @vLotType, @vBsmtCode, @vAssessLand, @vAssessTot, @vExemptLand, @vExemptTot, @vYearBuilt, @vYearAlter1, @vYearAlter2, @vHistDist, @vLandmark, @vBuiltFAR, @vResidFAR, @vCommFAR, @vFacilFAR, @vBoroCode, @vBBL, @vCondoNo, @vTract2010, @vXCoord, @vYCoord, @vZoneMap, @vZMCode, @vSanborn, @vTaxMap, @vEDesigNum, @vAPPBBL, @vAPPDate, @vPLUTOMapID, @vVersion)
 SET
 Borough	= nullif(@vBorough,''),
@@ -376,7 +376,7 @@ APPDate	= STR_TO_DATE(nullif(@vAPPDate,''),'%m/%d/%Y'),
 PLUTOMapID	= nullif(@vPLUTOMapID,''),
 Version	= nullif(@vVersion,'');
 
-load data local infile '../SI.csv' into table pluto_BX fields terminated by ',' optionally enclosed by '"' escaped by '\\' lines terminated by '\n' starting by '' ignore 1 rows
+load data local infile '../SI.csv' into table pluto_SI fields terminated by ',' optionally enclosed by '"' escaped by '\\' lines terminated by '\n' starting by '' ignore 1 rows
 (@vBorough, @vBlock, @vLot, @vCD, @vCT2010, @vCB2010, @vSchoolDist, @vCouncil, @vZipCode, @vFireComp, @vPolicePrct, @vHealthArea, @vSanitBoro, @vSanitDistrict, @vSanitSub, @vAddress, @vZoneDist1, @vZoneDist2, @vZoneDist3, @vZoneDist4, @vOverlay1, @vOverlay2, @vSPDist1, @vSPDist2, @vSPDist3, @vLtdHeight, @vSplitZone, @vBldgClass, @vLandUse, @vEasements, @vOwnerType, @vOwnerName, @vLotArea, @vBldgArea, @vComArea, @vResArea, @vOfficeArea, @vRetailArea, @vGarageArea, @vStrgeArea, @vFactryArea, @vOtherArea, @vAreaSource, @vNumBldgs, @vNumFloors, @vUnitsRes, @vUnitsTotal, @vLotFront, @vLotDepth, @vBldgFront, @vBldgDepth, @vExt, @vProxCode, @vIrrLotCode, @vLotType, @vBsmtCode, @vAssessLand, @vAssessTot, @vExemptLand, @vExemptTot, @vYearBuilt, @vYearAlter1, @vYearAlter2, @vHistDist, @vLandmark, @vBuiltFAR, @vResidFAR, @vCommFAR, @vFacilFAR, @vBoroCode, @vBBL, @vCondoNo, @vTract2010, @vXCoord, @vYCoord, @vZoneMap, @vZMCode, @vSanborn, @vTaxMap, @vEDesigNum, @vAPPBBL, @vAPPDate, @vPLUTOMapID, @vVersion)
 SET
 Borough	= nullif(@vBorough,''),
@@ -464,7 +464,7 @@ APPDate	= STR_TO_DATE(nullif(@vAPPDate,''),'%m/%d/%Y'),
 PLUTOMapID	= nullif(@vPLUTOMapID,''),
 Version	= nullif(@vVersion,'');
 
-load data local infile '../QN.csv' into table pluto_BX fields terminated by ',' optionally enclosed by '"' escaped by '\\' lines terminated by '\n' starting by '' ignore 1 rows
+load data local infile '../QN.csv' into table pluto_QN fields terminated by ',' optionally enclosed by '"' escaped by '\\' lines terminated by '\n' starting by '' ignore 1 rows
 (@vBorough, @vBlock, @vLot, @vCD, @vCT2010, @vCB2010, @vSchoolDist, @vCouncil, @vZipCode, @vFireComp, @vPolicePrct, @vHealthArea, @vSanitBoro, @vSanitDistrict, @vSanitSub, @vAddress, @vZoneDist1, @vZoneDist2, @vZoneDist3, @vZoneDist4, @vOverlay1, @vOverlay2, @vSPDist1, @vSPDist2, @vSPDist3, @vLtdHeight, @vSplitZone, @vBldgClass, @vLandUse, @vEasements, @vOwnerType, @vOwnerName, @vLotArea, @vBldgArea, @vComArea, @vResArea, @vOfficeArea, @vRetailArea, @vGarageArea, @vStrgeArea, @vFactryArea, @vOtherArea, @vAreaSource, @vNumBldgs, @vNumFloors, @vUnitsRes, @vUnitsTotal, @vLotFront, @vLotDepth, @vBldgFront, @vBldgDepth, @vExt, @vProxCode, @vIrrLotCode, @vLotType, @vBsmtCode, @vAssessLand, @vAssessTot, @vExemptLand, @vExemptTot, @vYearBuilt, @vYearAlter1, @vYearAlter2, @vHistDist, @vLandmark, @vBuiltFAR, @vResidFAR, @vCommFAR, @vFacilFAR, @vBoroCode, @vBBL, @vCondoNo, @vTract2010, @vXCoord, @vYCoord, @vZoneMap, @vZMCode, @vSanborn, @vTaxMap, @vEDesigNum, @vAPPBBL, @vAPPDate, @vPLUTOMapID, @vVersion)
 SET
 Borough	= nullif(@vBorough,''),
