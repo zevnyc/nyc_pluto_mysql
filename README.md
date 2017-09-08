@@ -22,5 +22,6 @@ mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc --verbose < pluto_16v2_load
 mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc --verbose < pluto_16v2_indexes.sql 
 ```
 
-
+# Errors
+If you get "not found" message change file locations from "../BK.csv" to "./BK.csv"
 
